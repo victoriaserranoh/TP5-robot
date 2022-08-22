@@ -1,0 +1,93 @@
+header{
+    margin-top: 50px;
+}
+.robot{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.cabeza{
+    background-color: rgb(153, 224, 46);
+    height: 180px;
+    width: 15%;
+    margin-left: 43%;
+    display: flex;
+    position: relative;
+}
+.ojo1{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.ojo2{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 140px;
+    position: absolute;
+    display: inline-block;
+}
+b{
+    width: 30px;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.boca{
+    background-color:rgb(196, 128, 40);
+    width: 110px;
+    height: 20px;
+    top: 100px;
+    position: relative;
+}
+.brazoi{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    left: 430px;
+    background-color: rgb(153, 224, 46);
+}
+.cuerpo{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 530px;
+    background-color: rgb(153, 224, 46);
+}
+.brazod{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    left: 840px;
+    background-color: rgb(153, 224, 46);
+}
+.piernai{
+    position: absolute;
+    width: 80px;
+    height: 250px;
+    top: 540px;
+    left: 550px;
+    bottom: 100px;
+    background-color: rgb(153, 224, 46);
+}
+.piernad{
+    position: absolute;
+    width: 80px;
+    height: 250px;
+    top: 540px;
+    left: 735px;
+    bottom: 100px;
+    background-color: rgb(153, 224, 46);
+}
+footer{
+    margin-bottom: 600px;
+}
+
